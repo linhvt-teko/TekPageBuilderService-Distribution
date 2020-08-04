@@ -1,0 +1,11 @@
+framework module TekPageBuilderService {
+  umbrella header "TekPageBuilderService.h"
+
+  export *
+  module * { export * }
+}
+
+module TekPageBuilderService.Swift {
+    header "TekPageBuilderService-Swift.h"
+    requires objc
+}
